@@ -10,8 +10,8 @@ public class Project2 {
 		String infixExp; //infix expression to be read
 		String postfixExp; //postfix expression to be computed
 		
-		Stack S = new Stack(); //stack for converting the infix expression
-							   //to postfix notation
+		Stack S = new Stack(); //stack for converting the infix expression to postfix notation
+							   
 		
 		System.out.print( "Enter an infix expression: ");
 		Scanner scan = new Scanner(System.in);
